@@ -6,7 +6,7 @@ export default function Example3(){
     console.log('render')
 
     useEffect( () => {
-        console.log('resource type changed')
+        console.log('Resource type changed')
     }, [resourceType])
 
     return(
