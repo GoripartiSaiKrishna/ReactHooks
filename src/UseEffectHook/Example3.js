@@ -7,13 +7,10 @@ export default function Example3(){
     console.log('render')
 
     useEffect( () => {
-<<<<<<< HEAD
         fetch(`https://jsonplaceholder.typicode.com/${resourceType}`)
             .then(response => response.json())
             .then(json => setItems(json))
-=======
         console.log('Resource type changed')
->>>>>>> 4e39bb0b9b210d1e212369c015bf50b1666c126e
     }, [resourceType])
 
     return(
