@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useRef} from "react";
 
+// In this example i maintained the count of rendering
 function Example6(){
     const[name, setName] = useState('')
     const renderCount = useRef(0)
