@@ -14,7 +14,7 @@ function Example5(){
     const themeStyles = useMemo(() => {
         return{
             backgroundColor: dark? 'black' : 'white',
-        color: dark? 'white' : 'black'
+            color: dark? 'white' : 'black'
         }
     }, [dark])
         
