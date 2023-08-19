@@ -8,12 +8,13 @@ import Example5 from './UseMemoHook/Example5';
 import Example6 from './UseRefHook/Example6';
 import Example7 from './UseRefHook/Example7';
 import Example8 from './UseRefHook/Example8';
+import Example9 from './UseContextHook/Example9';
 
 function App() {
   
   return (
     <>
-      <Example8></Example8>
+      <Example9></Example9>
     </>
   );
 }
